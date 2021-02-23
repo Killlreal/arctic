@@ -1,0 +1,486 @@
+@import url("components/common.css");
+
+.shop_goods {
+    margin: 120px 13.28125%;
+}
+
+.shop_goods_container {
+    margin: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 30px;
+}
+
+.shop_goods_item {
+    max-height: 482px;
+}
+
+.shop_goods_image {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    grid-template-rows: 40px 1fr;
+    height: 270px;
+    border: solid red;
+}
+
+.shop_goods_image img {
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shop_goods_image_label {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 0;
+    z-index: 1;
+    color: #fff;
+    font: 500 1rem Raleway, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.shop_new {
+    background-color: #008F06;
+}
+
+.shop_sale {
+    background-color: #8f0000;
+}
+
+.shop_goods_data {
+    height: 212px;
+    padding: 30px;
+    border: 2px solid #e9eaec;
+    border-top: none;
+    box-sizing: border-box;
+    display: grid;
+}
+
+.shop_good_headline {
+    font: 500 1.375rem Raleway, sans-serif;
+    color: #18222a;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+.shop_good_color {
+    font: 500 1rem Raleway, sans-serif;
+    color: #636e76;
+    margin: 0;
+}
+
+.shop_good_pricebuttons {
+    display: flex;
+    justify-content: space-between;
+    align-self: end;
+    margin-top: 30px;
+}
+
+.shop_good_price {
+    font: 1.875rem/100% "Open Sans", sans-serif;
+    color: #18222a;
+    margin: 0;
+    align-self: baseline;
+}
+
+.action_price {
+    font: 2.5rem/100% "Open Sans", sans-serif;
+    color: #8f0000;
+}
+
+.old_price {
+    text-decoration: line-through;
+}
+
+.shop_good_buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.shop_good_button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shop_good_button:first-of-type {
+    margin-right: 30px;
+}
+
+.shop_good_favourite {
+    width: 30px;
+    height: 30px;
+}
+
+.shop_good_favourite:hover {
+    color: #455D77;
+}
+
+.shop_good_basket {
+    width: 30px;
+    height: 30px;
+}
+
+.shop_good_basket:hover {
+    color: #455D77;
+}
+
+.shop_popular_goods_button {
+    text-align: center;
+}
+
+.shop_banner {
+    margin: 120px 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 46px;
+}
+
+.shop_banner_background {
+    background-color: #e9eaec;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    z-index: 0;
+}
+
+.shop_banner_content {
+    margin: 0 13.28125%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 120px 1fr;
+    align-items: center;
+    grid-column: 1/-1;
+    grid-row: 1/4;
+    z-index: 1;
+}
+
+.shop_banner_image {
+    height: 721px;
+    z-index: 1;
+    grid-row: 1/3;
+}
+
+.shop_banner_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shop_banner_headline_container {
+    max-width: 690px;
+    margin: 0 0 0 30px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: end;
+}
+
+.shop_banner_text {
+    max-width: 690px;
+    margin: 0 0 0 30px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-self: start;
+}
+
+.shop_banner_headline {
+    font: 500 1.875rem Raleway, sans-serif;
+    color: #18222a;
+    margin: 0;
+}
+
+.shop_banner_paragraph {
+    font: 1rem/150% "Open Sans", sans-serif;
+    color: #18222a;
+    margin-top: 20px;
+}
+
+.shop_info {
+    margin: 120px 13.28125%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 45px;
+}
+
+.shop_info_block {
+    background-color: #636E76;
+    padding: 60px;
+}
+
+.shop_info_block:nth-of-type(2) {
+    background-color: #455D77;
+}
+
+.shop_info_block:nth-of-type(3) {
+    background-color: #18222A;
+}
+
+.shop_info_block:nth-of-type(4) {
+    background-color: #E9EAEC;
+}
+
+.shop_info_block:nth-of-type(4)>p {
+    color: #18222a;
+}
+
+.shop_info_block_headline {
+    font: 1.875rem/150% Raleway, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.shop_info_block_paragraph {
+    font: 1rem/150% "Open Sans", sans-serif;
+    color: #fff;
+    margin: 30px 0 0 0;
+}
+
+@media(max-width: 1600px) {
+    .action_price {
+        font: 2.2rem/100% "Open Sans", sans-serif;
+    }
+
+    .old_price {
+        font: 500 1.575rem/100% Raleway, sans-serif;
+    }
+
+    .shop_good_button:first-of-type {
+        margin-right: 20px;
+    }
+
+    .shop_banner_image {
+        height: 621px;
+    }
+
+    .shop_banner_content {
+        grid-template-rows: 180px 1fr;
+    }
+
+}
+
+@media(max-width: 1440px) {
+    .action_price {
+        font: 2rem/100% "Open Sans", sans-serif;
+    }
+
+    .old_price {
+        font: 500 1.375rem/100% Raleway, sans-serif;
+    }
+
+    .shop_good_button:first-of-type {
+        margin-right: 15px;
+    }
+}
+
+@media(max-width: 1400px) {
+    .shop_banner_image {
+        height: 571px;
+    }
+
+    .shop_banner_image {
+        object-fit: scale-down;
+    }
+
+    .shop_banner_content {
+        grid-template-rows: 150px 1fr;
+    }
+}
+
+@media(max-width: 1360px) {
+    .shop_goods_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .action_price {
+        font: 2.5rem/100% "Open Sans", sans-serif;
+    }
+
+    .old_price {
+        font: 500 1.875rem/100% Raleway, sans-serif;
+    }
+
+    .shop_good_button:first-of-type {
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .shop_banner_content {
+        grid-template-rows: 120px 1fr;
+    }
+}
+
+@media(max-width: 1140px) {
+    .shop_banner_paragraph {
+        font: 1rem/130% "Open Sans", sans-serif;
+        margin: 15px 0 0 0;
+    }
+
+}
+
+@media(max-width: 1100px) {
+    .action_price {
+        font: 2.2rem/100% "Open Sans", sans-serif;
+    }
+
+    .old_price {
+        font: 500 1.575rem/100% Raleway, sans-serif;
+    }
+
+    .shop_good_button:first-of-type {
+        margin-right: 20px;
+    }
+
+    .shop_banner_headline_container {
+        margin-left: 20px;
+    }
+
+    .shop_banner_text {
+        font: 1rem/110% "Open Sans", sans-serif;
+        margin-left: 20px;
+    }
+
+    .shop_info {
+        grid-template-columns: 705px;
+        justify-self: center;
+    }
+}
+
+
+@media(max-width: 992px) {
+    .action_price {
+        font: 2rem/100% "Open Sans", sans-serif;
+    }
+
+    .old_price {
+        font: 500 1.375rem/100% Raleway, sans-serif;
+    }
+
+    .shop_good_button:first-of-type {
+        margin-right: 15px;
+    }
+
+    .shop_banner_paragraph {
+        font: 0.875rem/150% "Open Sans", sans-serif;
+        margin: 15px 0 0 0;
+    }
+
+    .shop_info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 880px) {
+    .shop_goods_container {
+        grid-template-columns: 450px;
+        justify-content: center;
+    }
+
+    .shop_goods_headline {
+        text-align: center;
+    }
+
+    .shop_banner {
+        grid-template-rows: 1fr;
+        background-color: #e9eaec;
+        padding: 30px 0;
+    }
+
+    .shop_banner_content {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+
+    .shop_banner_headline_container {
+        order: 0;
+        text-align: center;
+        margin: 0;
+    }
+
+    .shop_banner_image {
+        order: 1;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .shop_banner_text {
+        order: 2;
+        margin: 30px 0 0 0;
+    }
+
+    .shop_banner_paragraph {
+        font: 1rem/150% "Open Sans", sans-serif;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media(max-width: 576px) {
+    .shop_goods_container {
+        grid-template-columns: 1fr;
+        margin: 60px 0;
+    }
+
+    .shop_banner {
+        margin: 60px 0;
+        padding: 15px;
+    }
+
+    .shop_banner_content {
+        margin: 0;
+    }
+
+    .shop_banner_text {
+        margin: 0;
+    }
+
+    .shop_banner_image img {
+        object-fit: cover;
+    }
+
+    .shop_info {
+        margin: 60px 0;
+        gap: 30px 45px;
+    }
+
+    .shop_info_block {
+        padding: 30px 15px;
+    }
+
+    .btn_border {
+        padding: 1.125rem 3.75rem;
+    }
+}
+
+@media(max-width: 430px) {
+    .pager_wrapper {
+        margin: 60px 0 60px 13.28125%;
+    }
+
+    .shop_goods {
+        margin: 60px 0;
+    }
+
+    .shop_goods_container {
+        margin: 30px 0;
+    }
+
+    .shop_goods_data {
+        padding: 30px 15px;
+    }
+
+    .shop_good_headline {
+        text-align: center;
+    }
+
+    .shop_good_color {
+        text-align: center;
+    }
+}

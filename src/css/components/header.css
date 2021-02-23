@@ -1,0 +1,313 @@
+@import url("common.css");
+
+.header{
+	display: grid;
+	grid-template-columns: 290px 130px 260px repeat(12,1fr);
+	grid-template-rows: 130px;
+	position: relative;
+	background-color:#fff;
+	grid-area: header;
+}
+
+.disclaimer_container{
+	grid-column:1 / 2;
+	grid-row:1 / 2;
+	align-items: center;
+	justify-items: center;
+	background-color: #455D77;
+	padding: 30px 44px;
+}
+
+.disclaimer_phone{
+	margin:0;
+}
+
+.disclaimer_phone a{
+	font: 1.25rem/1.6875rem "Open Sans", sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+.disclaimer_text{
+	font: 0.75rem/1rem "Open Sans", sans-serif;
+	color: #fff;
+	margin:10px 0 0 0;
+}
+
+.logo_container{
+	display:grid;
+	grid-column:2 / 3;
+	grid-row:1 / 2;
+	background-color: #e9eaec;
+	align-content:center;
+	justify-content:center;
+}
+
+.logo_container a{
+	width:40px;
+	height:60px;
+}
+
+.logo{
+	background-repeat: no-repeat;
+	width:40px;
+	height:60px;
+}
+
+.minprirody_logo_container{
+	grid-column:3 / 4;
+	grid-row:1 / 2;
+	align-self:center;
+	justify-self:center;
+}
+
+.minprirody_logo{
+	width: 197px;
+	height: auto;
+}
+
+.actions{
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+	grid-column: 11 / 16;
+	grid-row:1 / 2;
+	color: #455D77;
+}
+
+.search{
+	display: flex;
+}
+
+.search_link{
+	display: block;
+	width:30px;
+	height:30px;
+}
+
+.search_input{
+	width:250px;
+	border:0;
+	border-bottom: 2px solid #455D77;
+	color:#CDD2DB;
+	background-color: transparent;
+	margin-right: 10px;
+}
+
+.header_eye{
+	margin-left:37px;
+	transition-property: all;
+    transition-duration: .4s;
+}
+
+.actions_icon{
+	width:30px;
+	height:30px;
+}
+
+.header_eye_link{
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.lang_version_container{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	margin:0 40px;
+}
+
+.lang_version{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 1.375rem;
+	color: #929CA4;
+	background-color: transparent;
+    border-style: none;
+	cursor: pointer;
+	position: relative;
+}
+
+.lang_version:hover{
+	text-decoration: underline;
+	color: #455D77;
+}
+
+.lang_version:active{
+	color: #455D77;
+}
+
+@media(max-width: 1700px){
+	.header{
+		grid-template-columns: 290px 130px 240px repeat(12,1fr);
+	}
+
+	.header_eye{
+		margin-left: 20px;
+	}
+
+	.lang_version_container{
+		margin: 0 20px;
+	}
+}
+
+@media(max-width: 1600px){
+	.header{
+		grid-template-columns: 240px 130px 230px repeat(12,1fr);
+	}
+	
+	.disclaimer_container{
+		padding: 30px 22px;
+	}
+	
+	.search_input{
+		width:200px;
+	}
+	
+	.header_eye{
+		margin-left:10px;
+	}
+	
+	.lang_version_container{
+		margin: 0 10px;
+	}
+}
+
+@media(max-width: 1440px){
+	.header_eye{
+		margin-left: 15px;
+	}
+
+	.lang_version_container{
+		margin: 0 15px;
+	}
+
+	.actions{
+		grid-column: 10/16;
+	}
+}
+
+@media(max-width: 1350px){
+	.header{
+		grid-template-columns: 220px 100px 200px repeat(12,1fr);
+	}
+
+	.disclaimer_container{
+		padding: 20px 25px;
+		text-align: center;
+	}
+
+	.disclaimer_phone{
+		text-align: center;
+	}
+
+	.disclaimer_phone a{
+		font: 1rem/1.3rem "Open Sans", sans-serif;
+	}
+
+	.minprirody_logo{
+		width: 150px;
+	}
+}
+
+@media(max-width: 1200px){
+	.header{
+		grid-template-columns: 130px 200px repeat(12,1fr);
+	}
+
+	.disclaimer_container{
+		display: none;
+	}
+
+	.logo_container{
+		grid-column: 1/2;
+	}
+
+	.minprirody_logo_container{
+		grid-column: 2/3;
+	}
+}
+
+@media(max-width: 992px){
+	.header{
+		grid-template-columns: 130px repeat(12,1fr);
+	}
+
+	.minprirody_logo_container{
+		display: none;
+	}
+
+	.search_input{
+		width: 150px;
+	}
+}
+
+@media(max-width: 840px){
+	.actions{
+		grid-column: 2/11;
+		justify-content: start;
+		margin-left: 20px;
+	}
+
+	.search_input{
+		width: 250px;
+	}
+
+	.header_eye{
+		margin-left:30px;
+	}
+	
+	.lang_version_container{
+		margin: 0 0 0 30px;
+	}
+}
+
+@media(max-width: 700px){
+	.search_input{
+		width: 180px;
+	}
+
+	.header_eye{
+		margin-left:20px;
+	}
+	
+	.lang_version_container{
+		margin: 0 0 0 20px;
+	}
+}
+
+@media(max-width: 576px){
+	.header{
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: 90px;
+	}
+
+	.logo_container{
+		grid-column:1 / 2;
+		grid-row:1 / 2;
+		background: none;
+		align-content:center;
+		justify-content:start;
+		margin-left: 20px;
+	}
+
+	.search{
+		display: none;
+	}
+
+	.header_eye{
+		display: none;
+	}
+
+	.actions{
+		grid-column: 2/3;
+		justify-content: flex-end;
+		margin-right: 70px;
+	}
+}

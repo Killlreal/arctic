@@ -1,0 +1,207 @@
+#widget{
+    position: relative;
+    margin-top: 30px;
+}
+
+.volunteering_instruction_steps{
+    margin: 120px 0 60px 0;
+}
+
+.volunteering_instruction_steps_headline{
+    margin: 0 0 60px 13.28125%;
+    font: 600 1.875rem Raleway, sans-serif;
+	letter-spacing: .02em;
+	color:#18222A;
+	text-transform: uppercase;
+}
+
+.volunteering_instruction_steps{
+    
+}
+
+.volunteering_instruction_steps_container{
+    margin: 0 21.09375%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 250px);
+    row-gap: 60px;
+    column-gap:120px;
+}
+
+.volunteering_instruction_steps_item{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.volunteering_instruction_steps_item_number{
+    font: 700 9.375rem/6.5rem "Open Sans", sans-serif;
+	color: #18222A;
+    opacity: 0.1;
+    grid-column: 1 / 10;
+    grid-row: 1/3;
+    margin:0;
+}
+
+.volunteering_instruction_steps_item_headline{
+    font:600 1.875rem/2.1875rem Raleway, sans-serif;
+	color: #18222A;
+	text-transform: uppercase;
+    grid-column: 2 / 10;
+    grid-row: 1/3;
+    margin:70px 0 0 0;
+}
+
+.volunteering_instruction_steps_item_address{
+    font: 1rem/1.5rem "Open Sans", sans-serif;
+	color: #636E76;
+    grid-column: 2 / 10;
+    grid-row: 2/4;
+    margin:40px 0 0 0;
+}
+
+.volunteering_margin_60{
+    margin:75px 0 0 0;
+}
+
+.volunteering_work{
+    display:grid;
+    grid-template-columns: 54.954954955% auto;
+    column-gap:60px;
+    margin: 0 13.28125% 120px 0;
+}
+
+.volunteering_work_picture{
+    height: 550px;
+}
+
+.volunteering_work_picture img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.volunteering_work_text{
+    align-self: center;
+}
+
+.volunteering_work_paragraph{
+    font: 1.125rem/1.6875rem "Open Sans", sans-serif;
+	color: #18222A;
+}
+
+.volunteering_practice_rules{
+    margin: 120px 0 120px 13.28125%;
+}
+
+.volunteering_practice_rules_headline{
+    font:600 1.875rem/2.1875rem Raleway, sans-serif;
+	color: #18222A;
+    text-transform: uppercase;
+    margin-bottom:60px;
+}
+
+.volunteering_practice_rules_container{
+    display: grid;
+    grid-template-columns: auto 64.024024024%;
+    column-gap: 60px;
+}
+
+.volunteering_practice_picture{
+    height: 550px;
+}
+
+.volunteering_practice_picture{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.volunteering_practice_paragraph{
+    margin:30px 0 0 0;
+    font: 1.125rem/1.6875rem "Open Sans", sans-serif;
+    color:#18222A;
+    ;
+}
+
+.volunteering_practice_rules_items_paragraph{
+    font: 1.125rem/1.6875rem "Open Sans", sans-serif;
+    color: #636E76;
+    margin:0;
+    align-self:center;
+}
+
+.volunteering_practice_rules_items_icon{
+    width: 45px;
+    height: 45px;
+}
+
+.volunteering_practice_rules_items{
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    row-gap:60px;
+    margin-bottom:60px;
+}
+
+.volunteering_practice_rules_item{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    column-gap:30px;
+}
+
+.volunteering_practice_link{
+    font: 1.125rem/1.6875rem "Open Sans", sans-serif;
+    color: #636E76;
+    margin-right: 30px;
+}
+
+.volunteering_practice_form{
+    margin: 120px 13.28125%;
+}
+
+.volunteering_practice_form_headline{
+    font:600 1.875rem/2.1875rem Raleway, sans-serif;
+	color: #18222A;
+    text-transform: uppercase;
+    margin:0 0 60px 0;
+}
+
+.volunteering_practice_form_wrapper{
+    display: grid;
+}
+
+.volunteering_practice_form_inputs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+}
+
+.volunteering_practice_form_input{
+    display: grid;
+}
+
+.volunteering_practice_form_input input{
+    border: none;
+    border-bottom: 2px solid #455D77;
+    height:30px;
+}
+
+.volunteering_practice_form_input label{
+    font: 1.125rem/1.6875rem "Open Sans", sans-serif;
+    color: #636E76;
+}
+
+.volunteering_practice_form_textarea{
+    margin-top:120px;
+    border: 2px solid #455D77;
+    box-sizing: border-box;
+    font: 1.125rem/1.6875rem "Open Sans", sans-serif;
+    color: #636E76;
+    padding:10px;
+    width: 100%;
+}
+
+.volunteering_practice_form_button{
+    margin-top:30px;
+    justify-self: center;
+}

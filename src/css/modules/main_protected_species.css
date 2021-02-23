@@ -1,0 +1,129 @@
+@import url("../components/common.css");
+
+.main_protected_species_container{
+    margin: 120px 13.28125%;
+}
+
+.main_protected_species_blocks{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+    column-gap:30px;
+    margin-top:30px;
+}
+
+.main_protected_species_p_container{
+    margin:0;
+    align-self:center;
+}
+
+.main_protected_species_paragraph{
+	color:#636E76;
+    font: 1rem/1.5rem "Open sans", sans-serif;
+    margin:20px 0 0 0;
+}
+
+.main_protected_species_paragraph:first-of-type{
+    margin:0;
+}
+
+.protected_species_preview{
+	color:#636E76;
+    font: 1rem/1.5rem "Open sans", sans-serif;
+	margin:20px 0 0 0;
+	max-width: 688px;
+}
+
+.main_protected_species_photo{
+	position: relative;
+	display:block;
+	height:400px;
+}
+
+.main_protected_species_photo img{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+}
+
+.testHover {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font: 600 1.25rem "Open Sans", sans-serif;
+	transition: opacity 1s ease-in-out;
+    background: rgba(24, 34, 42, 0.6);
+    text-decoration: none;
+}
+
+.main_protected_species_photo:hover .testHover{
+	opacity: 1;
+}
+
+@media(max-width: 1440px){
+    .main_protected_species_photo{
+        height:350px;
+    }
+}
+
+@media(max-width: 1340px){
+	.main_protected_species_blocks{
+		grid-template-columns: repeat(2,1fr);
+		row-gap: 60px;
+	}
+
+	.main_protected_species_photo{
+		width: 330px;
+		justify-self: start;
+	}
+}
+
+@media(max-width: 992px){
+	.main_protected_species_photo{
+		height: 300px;
+		width: auto;
+	}
+
+	.main_protected_species_blocks{
+		row-gap: 30px;
+	}
+}
+
+@media(max-width: 740px){
+	.main_protected_species_photo{
+		height: 400px;
+	}
+}
+
+@media(max-width: 576px){
+	.main_protected_species_container{
+		margin: 60px 0;
+	}
+
+	.main_protected_species_headline{
+		text-align: center;
+	}
+
+	.protected_species_preview{
+		margin:20px 15 0 15;
+		max-width: 688px;
+	}
+
+	.main_protected_species_blocks{
+		grid-template-columns: 1fr;
+	}
+
+	.main_protected_species_p_container{
+		margin: 0 15px;
+	}
+
+	.main_protected_species_photo{
+		justify-self: center;
+	}
+}

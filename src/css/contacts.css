@@ -1,0 +1,108 @@
+.contacts_location{
+	display:grid;
+	grid-template-columns: 1fr minmax(250px, 512px);
+	margin-right:13.28125%;
+	column-gap: 3.6036036036%;
+}
+
+.contacts_map{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: repeat(6,1fr);
+}
+
+.contacts_map_img{
+	height: 588px;
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+}
+
+.contacts_map_img img{
+	object-fit: cover;
+    width:100%;
+	height:100%;
+	z-index:1;
+}
+
+.contacts_adress{
+	font: 1.875rem/2.5625rem "Open Sans", sans-serif;
+	color: #18222A;
+	overflow-wrap:break-word;
+	margin:0;
+}
+
+.contacts_person_cards{
+	display:grid;
+	grid-template-columns: repeat(2,1fr);
+	row-gap:120px;
+	margin: 120px 13.28125%;;
+	column-gap: 3.6036036036%;
+}
+
+.contacts_person_card_info{
+	display:grid;
+	grid-template-columns: repeat(2,1fr);
+	column-gap: 2.12765957447%;
+}
+
+.contacts_person_card_img{
+	height:330px;
+}
+
+.contacts_person_card_img img{
+	object-fit: cover;
+    width:100%;
+	height:100%;
+}
+
+.contacts_person_card_text{
+}
+
+.contacts_person_card_position{
+	font:500 1.25rem/1.4375rem Raleway, sans-serif;
+	color: #18222A;
+	text-transform: uppercase;
+	margin:0;
+}
+
+.contacts_person_card_name{
+	font: 1rem/1.375rem "Open Sans", sans-serif;
+	color: #455D77;
+	text-transform: capitalize;
+	margin:30px 0 0 0;
+}
+
+.contacts_person_card_phone{
+	display:flex;
+	margin-top:60px;
+}
+
+.contacts_person_card_phone_icon{
+	width:30px;
+	height:30px;
+	margin-right:10px;
+}
+
+.contacts_person_card_phone_number{
+	font: 1rem/1.375rem "Open Sans", sans-serif;
+	color: #636E76;
+	margin:0;
+}
+
+.contacts_person_card_mail{
+	display:flex;
+	margin-top:30px;
+}
+
+.contacts_person_card_mail_icon{
+	width:30px;
+	height:30px;
+	margin-right:10px;
+}
+
+.contacts_person_card_mail_address{
+	font: 1rem/1.375rem "Open Sans", sans-serif;
+	color: #636E76;
+	margin:0;
+}
+

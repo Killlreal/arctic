@@ -1,0 +1,588 @@
+@import url("components/common.css");
+@import url("modules/main_about_us.css");
+
+.park_wrapper{
+	margin-top: 120px;
+}
+
+.park_headline{
+	font:500 1.875rem/150% Raleway, sans-serif;
+	color: #18222A;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	margin: 0 0 60px 0;
+	margin-left:13.28125%;
+}
+
+.park_cleanarctic_content{
+	display: grid;
+    grid-template-columns: minmax(290px, 605px) minmax(320px,1000px);
+    grid-template-rows: 100px 1fr 265px;
+    column-gap: 3.125%;
+	margin-left: 13.28125%;
+}
+
+.park_cleanarctic_headline{
+	grid-column: 1/2;
+    grid-row:1/2;
+}
+
+.park_content{
+	display: grid;
+    grid-template-columns: minmax(290px, 605px) minmax(320px,1000px);
+    grid-template-rows: 35px 1fr 62px;
+    column-gap: 3.125%;
+	margin-left: 13.28125%;
+}
+
+.park_northcluster_container{
+	max-height: 1147px;
+	background-image: url(../images/5bg.png);
+    background-size: 67.96875%;
+    background-position: right 0 top 0;
+    background-repeat: repeat-y;
+	padding: 120px 0;
+	margin: 120px 0;
+}
+
+.park_partners_container{
+	max-height: 767px;
+	background-image: url(../images/5bg.png);
+    background-size: 67.96875%;
+    background-position: right 0 top 0;
+    background-repeat: repeat-y;
+	padding: 120px 0;
+	margin: 120px 0;
+}
+
+.park_partners_content{
+	display: grid;
+    grid-template-columns: minmax(320px,1000px) minmax(290px, 605px);
+    grid-template-rows: 35px 1fr 302px;
+    column-gap: 3.125%;
+	margin-right: 13.28125%;
+}
+
+.park_northcluster_content{
+	display: grid;
+    grid-template-columns: minmax(320px,1000px) minmax(290px, 605px);
+    grid-template-rows: 35px 1fr 62px;
+    column-gap: 3.125%;
+	margin-right: 13.28125%;
+}
+
+.park_northcluster_headline{
+	grid-column: 2/3;
+    grid-row:1/2;
+}
+
+.park_northcluster_img{
+	height: 730px;
+    grid-column: 1/2;
+	grid-row:1/4;
+	align-self: center;
+}
+
+.park_northcluster_img img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.park_northcluster_text{
+	margin: 60px 0;
+	grid-column: 2/3;
+    grid-row:2/3;
+}
+
+.park_northcluster_button{
+	grid-column: 2/3;
+    grid-row:3/4;
+}
+
+.park_content_headline{
+	font: 500 1.875rem/2.1875rem Raleway, sans-serif;
+	color: #18222A;
+	margin: 0;
+	margin-bottom:60px;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+}
+
+.park_content_text{
+	margin: 60px 0;
+}
+
+.park_content_paragraph{
+	font: 1rem/1.5rem "Open Sans", sans-serif;
+	color: #636E76;
+	margin: 0;
+	margin-bottom:20px;
+	padding: 0;
+	overflow-wrap:break-word;
+}
+
+.park_content_paragraph:last-of-type{
+	margin:0;
+}
+
+.documents{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 30px;
+	margin:120px 13.28125%;
+}
+
+.documents_items{
+	display:grid;
+	row-gap:60px;
+	margin: 60px 0;
+}
+
+.documents_item{
+	display:grid;
+	grid-template-columns: 76px 1fr;
+	row-gap: 60px;
+	column-gap: 30px;
+}
+
+.documents_item_icon{
+	width: 75.9px;
+	height: 90px;
+}
+
+.documents_item_headline{
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.documents_item_link{
+	font: 1.125rem/1.5625rem "Open Sans", sans-serif;
+	color: #455D77;
+}
+
+.park_content_img_clean_arctic{
+	height:530px;
+	justify-self: end;
+	grid-column: 7/13;
+	grid-row: 1/13;
+	align-self:center;
+	padding:120px 0;
+}
+
+.park_content_img_clean_arctic img{
+	object-fit: cover;
+    width:100%;
+	height:100%;
+}
+
+.russian_arctic_team{
+	margin:120px 13.28125%;
+}
+
+.russian_arctic_team_headline{
+	margin: 0 0 60px 0;
+}
+
+.russian_arctic_team_items{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	column-gap: 2.12765957447%;
+}
+
+
+.russian_arctic_team_item_img{
+	height: 362px;
+}
+
+.russian_arctic_team_item_img img{
+	object-fit: cover;
+    width:100%;
+	height:100%;
+}
+
+.russian_arctic_team_item_paragraph{
+	font: 1rem/1.5rem "Open Sans", sans-serif;
+	color: #636E76;
+	margin:0;
+	margin-top:30px;
+}
+
+.russian_arctic_team_link{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.north_cluster_numbers{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	justify-items: center;
+	margin:-255 13.28125% 0 13.28125%;
+}
+
+.north_cluster_numbers_item:first-of-type{
+	justify-self: start;
+}
+
+.north_cluster_numbers_item:nth-of-type(2){
+	justify-self: center;
+}
+
+.north_cluster_numbers_item:nth-of-type(3){
+	justify-self: end;
+}
+
+.north_cluster_numbers_item_number{
+	font: 600 3.125rem/4.875rem "Open Sans", sans-serif;
+	color: #18222A;
+	letter-spacing: .02em;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+.north_cluster_numbers_item_label{
+	font: 600 1.875rem/2.5rem "Open Sans", sans-serif;
+	color: #18222A;
+	letter-spacing: .02em;
+	text-align: center;
+}
+
+.north_cluster_tiles{
+	margin:120px 13.28125%;
+	display:grid;
+	row-gap:30px;
+}
+
+.north_cluster_tile{
+	display:grid;
+	column-gap: 30px;
+}
+
+.north_cluster_tile:nth-of-type(even){
+	grid-template-columns: auto 40.425%;
+}
+
+.north_cluster_tile:nth-of-type(odd){
+	grid-template-columns: 40.425% auto;
+}
+
+.north_cluster_item{
+	display: grid;
+}
+
+.north_cluster_img{
+	height:456px;
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+}
+
+.north_cluster_img img{
+	object-fit: cover;
+    width:100%;
+	height:100%;
+}
+
+.north_cluster_paragraph{
+	font: 600 1.875rem/2.1875rem Raleway, sans-serif;
+	color: #fff;
+	letter-spacing: .02em;
+	grid-column: 1 / -1;
+	grid-row: 1 / -1;
+	align-self: center;
+	justify-self: center;
+}
+
+.page_protected_species{
+	margin:120px 13.28125%;
+	display: grid;
+	row-gap:60px;
+}
+
+.page_protected_species_row{
+	display:grid;
+	column-gap: 30px;
+}
+
+.page_protected_species_row:nth-of-type(odd){
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.page_protected_species_row:nth-of-type(even){
+	grid-template-columns: 1fr 2fr;
+}
+
+.page_protected_species_row_item{
+}
+
+.page_protected_species_row_item_img{
+	height: 430px;
+}
+
+.page_protected_species_row_item_img img{
+	object-fit: cover;
+    width:100%;
+	height:100%;
+}
+
+.page_protected_species_row_item_headline{
+	margin:30px 0 0 0;
+	font: 600 1.875rem/2.1875rem Raleway, sans-serif;
+	color: #18222A;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+}
+
+.page_protected_species_row_item_preview{
+	margin-top:30px;
+	font: 1rem/1.5rem Raleway, sans-serif;
+	color: #18222A;
+}
+
+.page_protected_species_row_item_link{
+	font: 1.125rem/1.3125rem Raleway, sans-serif;
+	color: #455D77;
+	text-decoration: none;
+}
+
+@media(max-width: 1487px){
+	.park_partners_content{
+		grid-template-rows: 35px 1fr 272px;
+	}
+}
+
+@media(max-width: 1450px){
+	.park_cleanarctic_content{
+		grid-template-rows: 135px 1fr 230px;
+	}
+}
+
+@media(max-width: 1439px){
+	.russian_arctic_team_items{
+		grid-template-columns: repeat(3,1fr);
+		row-gap: 60px;
+	}
+}
+
+@media(max-width: 1254px){
+	.park_cleanarctic_content{
+		grid-template-rows: 170px 1fr 145px;
+	}
+}
+
+@media(max-width: 1238px){
+	.park_partners_content{
+		grid-template-rows: 35px 1fr 222px;
+	}
+}
+
+@media(max-width: 1200px){
+	.park_northcluster_container{
+		max-height: 1800px;
+	}
+}
+
+@media(max-width: 1064px){
+	.documents{
+		grid-template-columns: 1fr;
+		gap: 60px 30px;
+	}
+}
+
+@media(max-width: 1043px){
+	.park_partners_content{
+		grid-template-rows: 35px 1fr 152px;
+	}
+}
+
+@media(max-width: 1024px){
+	.park_cleanarctic_content{
+		grid-template-rows: 170px 1fr 65px;
+	}
+
+	.russian_arctic_team_items{
+		grid-template-columns: repeat(2,1fr);
+		row-gap: 60px;
+	}
+}
+
+@media(max-width: 900px){
+	.park_partners_content{
+		grid-template-rows: 35px 1fr 102px;
+	}
+}
+
+@media(max-width: 840px){
+	.russian_arctic_team_items{
+		grid-template-columns: 330px;
+		row-gap: 60px;
+		justify-content: center;
+	}
+
+	.russian_arctic_team_headline{
+		text-align: center;
+	}
+
+	.park_content{
+		display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        margin: 0;
+	}
+
+	.park_headline{
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.park_content_text{
+		order: 2;
+		margin: 30px 0 0 0;
+	}
+
+	.park_cleanarctic_content{
+		display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        margin: 0;
+	}
+
+	.park_cleanarctic_headline{
+		margin: 0;
+        text-align: center;
+        order: 0;
+	}
+
+	.park_northcluster_content{
+		display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+		margin: 0;
+		margin: 0 13.28125%;
+	}
+
+	.park_partners_container{
+		max-height: 2200px;
+	}
+	
+	.park_partners_content{
+		display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+		margin: 0 13.28125%;
+	}
+
+	.park_northcluster_img{
+        height: 450px;
+        margin-top: 30px;
+        order: 1;
+    }
+
+    .park_northcluster_headline{
+        margin: 0;
+        text-align: center;
+        order: 0;
+    }
+
+    .park_northcluster_button{
+        text-align: center;
+        margin-top: 30px;
+        order: 3;
+	}
+	
+	.park_northcluster_text{
+		order: 2;
+		margin: 30px 0 0 0;
+	}
+}
+
+@media(max-width: 576px){
+	.russian_arctic_team_items{
+		row-gap: 30px;
+	}
+
+	.russian_arctic_team{
+		margin: 60px 15px;
+	}
+
+	.russian_arctic_team_headline{
+		margin-bottom: 30px;
+	}
+
+	.park_wrapper{
+		margin-top: 60px;
+	}
+
+	.park_content_text{
+		order: 2;
+		margin: 30px 15px 0 15px;
+	}
+
+	.park_northcluster_content{
+		margin: 30px 0 0 0;
+	}
+
+	.park_partners_content{
+		margin: 30px 0 0 0;
+	}
+
+	.park_northcluster_text{
+		order: 2;
+		margin: 30px 15px 0 15px;
+	}
+
+	.park_headline{
+		margin-top: 60px;
+	}
+
+	.park_partners_container{
+        background: none;
+        padding: 0;
+        margin: 60px 0;
+    }
+
+	.park_northcluster_container{
+        background: none;
+        padding:0;
+        margin:60px 0;
+        max-height: 2200px;
+    }
+
+    .park_northcluster_img{
+        height: 350px;
+        margin-top: 30px;
+	}
+	
+	.documents{
+		row-gap: 60px;
+		margin: 60px 15px;
+	}
+
+	.documents_headline{
+		text-align: center;
+	}
+
+	.documents_items{
+		row-gap: 30px;
+		margin: 30px 0;
+	}
+
+	.documents_item{
+		display: block;
+		text-align: center;
+	}
+
+	.documents_item_icon{
+		margin-bottom: 30px;
+	}
+
+	.documents_button{
+		text-align: center;
+	}
+}
+
+@media(max-width: 359px){
+	.russian_arctic_team_items{
+		grid-template-columns: 1fr;
+	}
+}

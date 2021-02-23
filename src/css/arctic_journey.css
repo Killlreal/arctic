@@ -1,0 +1,406 @@
+.arctic_journey_tours{
+    margin: 120px 13.28125%;
+}
+
+.arctic_journey_tours_headline{
+	font: 600 1.875rem Raleway, sans-serif;
+	letter-spacing: .02em;
+	color:#18222A;
+	text-transform: uppercase;
+	margin:0 0 60px 0;
+}
+
+.arctic_journey_tours_table_hat{
+    display: grid;
+    grid-template-columns: 120px 240px 1fr 120px;
+    grid-template-rows: auto;
+}
+
+.arctic_journey_tours_table_hat_p{
+    font:500 1.125rem/1.3125 Raleway, sans-serif;
+	color: #18222A;
+    margin:0 0 28px 0;
+    text-align: center;
+}
+
+.arctic_journey_tours_table_items{
+    display: grid;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.arctic_journey_tours_table_item{
+    display: grid;
+    grid-template-columns: 120px 240px 1fr 120px;
+    align-items: center;
+    border-top: 2px solid #E9EAEC;
+    border-right:2px solid #E9EAEC;
+    border-collapse: collapse;
+    box-sizing:border-box;
+    color: #18222a;
+    height: 140px;
+}
+
+.arctic_journey_tours_table_item:hover{
+    background: #455D77;
+    color: #E9EAEC;
+}
+
+.arctic_journey_tours_table_item:last-of-type{
+    border-bottom: 2px solid #E9EAEC;
+    border-collapse: collapse;
+}
+
+.arctic_journey_tours_table_item_p{
+    font:500 1rem/1.3125 Raleway, sans-serif;
+    margin:0;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.arctic_journey_tours_table_item_date{
+    font:500 1rem/1.3125 Raleway, sans-serif;
+    margin:0;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.arctic_journey_tours_table_item_cell{
+    height:140px;
+    display: grid;
+    align-content: center;
+    border-left: 2px solid #E9EAEC;
+    border-collapse: collapse;
+    box-sizing:border-box;
+}
+
+.arctic_journey_tours_table_item_cell:first{
+    height:140px;
+    display: grid;
+    align-content: center;
+    border-left: 2px solid #E9EAEC;
+    box-sizing:border-box;
+}
+
+.arctic_journey_preparation{
+    margin: 120px 13.28125%;
+}
+
+.arctic_journey_preparation_headline{
+    font: 600 1.875rem Raleway, sans-serif;
+	letter-spacing: .02em;
+	color:#18222A;
+	text-transform: uppercase;
+	margin:0 0 60px 0;
+}
+
+.arctic_journey_preparation_item{
+    display:flex;
+    padding: 30px 0;
+    border-top: 2px solid #E9EAEC;
+}
+
+.arctic_journey_preparation_paragraph{
+    font: 1.875rem/3.4375rem Raleway, sans-serif;
+	letter-spacing: .02em;
+	color:#636E76;
+	text-transform: uppercase;
+}
+
+.arctic_journey_preparation_item:last-of-type{
+    border-bottom: 2px solid #E9EAEC;
+}
+
+ /* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+} 
+
+.arctic_journey_chevron{
+    width:30px;
+    height:30px;
+    margin-left:30px;
+    align-self:center;
+}
+
+.arctic_journey_lightbox{
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(24, 34, 42, 0.7);
+}
+
+.arctic_journey_lightbox_content{
+    margin: 176px 13.28125%;
+    background-color: #fff;
+    padding:30px;
+    animation-name: modalopen;
+    animation-duration: 1s;
+}
+
+.arctic_journey_lightbox_closer{
+    float: right;
+    cursor: pointer;
+    color: #18222a;
+}
+
+.arctic_journey_lightbox_closer:hover,
+.arctic_journey_lightbox_closer:focus {
+    color: #e9eaec;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.arctic_journey_closer{
+    width:30px;
+    height:30px;
+}
+
+.arctic_journey_lightbox_dates{
+    margin: 90px auto 0 auto;
+    text-align: center;
+}
+
+.arctic_journey_lightbox_dates span{
+    font: 1.125rem/150% "Open Sans", sans-serif;
+    color: #455D77;
+}
+
+.arctic_journey_lightbox_items{
+    margin:60px 90px;
+}
+
+.arctic_journey_lightbox_item_pointplace{
+    display: flex;
+    align-items: center;
+}
+
+.arctic_journey_lightbox_item_route{
+    margin:30px 14px;
+    padding-left:45px;
+    border-left: 2px solid #E9EAEC;
+    box-sizing: border-box;
+}
+
+.arctic_journey_pointer{
+    width:30px;
+    height:30px;
+}
+
+.arctic_journey_lightbox_item_place{
+    font: 500 1rem/150% Raleway, sans-serif;
+    color: #18222A;
+    margin: 0 0 0 30px;
+}
+
+.arctic_journey_lightbox_item_arrival{
+    font: 1rem/150% Raleway, sans-serif;
+    color: #18222A;
+    margin:0 0 30px 0;
+}
+
+.arctic_journey_lightbox_item_stop{
+    font: 500 1rem/150% Raleway, sans-serif;
+    color: #455D77;
+    margin:0 0 30px 0;
+}
+
+.arctic_journey_lightbox_item_departure{
+    font: 500 1rem/150% Raleway, sans-serif;
+    color: #18222A;
+    margin: 0;
+}
+
+.arctic_journey_lightbox_button_container{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.lightbox_button{
+    padding: 1.25rem 5rem;
+    display:inline-block;
+	font: 0.825rem "Open Sans", sans-serif;
+	color:#fff;
+	background-color: #455D77;
+	text-decoration: none;
+    padding: 1.25rem 5rem;
+    cursor: pointer;
+}
+
+.lightbox_button:hover{
+    background-color: #406084;
+}
+
+.lightbox_button:active{
+	background-color: #20446C;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media(max-width: 840px){
+    .arctic_journey_lightbox_button_container{
+        margin-bottom: 90px;
+    }
+
+    .arctic_journey_lightbox_content{
+        margin-top:90px;
+    }
+
+
+    .arctic_journey_lightbox_items{
+        margin: 60px 30px;
+    }
+
+    .arctic_journey_lightbox_dates{
+        margin-top: 60px
+    }
+}
+
+
+@media(max-width: 576px){
+
+    .arctic_journey_lightbox_content{
+        margin:15px 15px;
+        padding:15px;
+    }
+
+    .arctic_journey_lightbox_dates{
+        margin-top: 45px;
+    }
+
+    .arctic_journey_lightbox_items{
+        margin: 30px 0;
+    }
+
+    .arctic_journey_lightbox_content{
+        padding: 15px 10px;
+    }
+
+    .arctic_journey_lightbox_button_container{
+        margin-bottom: 60px;
+    }
+
+    .arctic_journey_lightbox_date{
+        display:block;
+    }
+
+    .arctic_journey_lightbox_date:nth-child(2){
+        display:none;
+    }
+}
+
+@media(max-width: 370px){
+	.lightbox_button{
+        padding: 1.125rem 3.5rem;
+    }
+    
+}

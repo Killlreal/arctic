@@ -1,0 +1,1 @@
+vue.prototype.$nav = 1;

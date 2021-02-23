@@ -1,0 +1,147 @@
+.social_places{
+    margin: 120px 13.28125%;
+}
+
+.social_places_headline{
+    font:600 1.875rem/150% Raleway, sans-serif;
+	color: #18222A;
+	text-transform: uppercase;
+    letter-spacing: .02em;
+    margin:0;
+}
+
+.social_places_row{
+    margin: 60px 0 120px 0;
+}
+
+.social_places_item_article{
+    display: grid;
+    grid-template-columns: repeat(36,1fr);
+    grid-template-rows: repeat(10,1fr);
+    grid-gap:1%;
+    height:390px;
+}
+
+.social_places_item_one_img{
+    height: 390px;
+    grid-column: 1/23;
+    grid-row: 1/10;
+}
+
+.social_places_item_one_img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.social_places_item_one_text{
+    margin-top:60px;
+    grid-column: 1/23;
+}
+
+.social_places_item_paragraph{
+    font:1rem/150% "Open Sans", sans-serif;
+	color: #636E76;
+}
+
+.social_places_item_one_meta{
+    display:grid;
+    grid-column: 24/37;
+    grid-row:1/11;
+    grid-template-columns: repeat(24,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+
+.social_places_item_one_number{
+    font: 700 9.375rem/15rem "Open Sans", sans-serif;
+	color: #18222A;
+    opacity: 0.1;
+    margin:0;
+    grid-row: 3/9;
+    grid-column: 1/11;
+}
+
+.social_places_item_one_headline{
+    font:600 1.875rem/2.1875rem Raleway, sans-serif;
+	color: #18222A;
+	text-transform: uppercase;
+    margin:0;
+    align-self:center;
+    grid-row: 6/7;
+    grid-column: 4/25;
+}
+
+.social_places_item_one_address{
+    font: 1.125rem/1.5rem "Open Sans", sans-serif;
+	color: #636E76;
+    margin:0;
+    grid-row: 8/9;
+    grid-column: 4/25;
+}
+
+.social_places_item_text_wrapper{
+    display: grid;
+    grid-template-columns: repeat(36,1fr);
+    grid-gap:1%;
+}
+
+.social_places_item_two_img{
+    height: 390px;
+    grid-column: 15/37;
+    grid-row: 1/10;
+}
+
+.social_places_item_two_text{
+    margin-top:60px;
+    grid-column: 15/37;
+}
+
+.social_places_item_two_meta{
+    display:grid;
+    grid-column: 1/14;
+    grid-row:1/11;
+    grid-template-columns: repeat(24,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+
+.social_places_item_two_headline{
+    font:600 1.875rem/2.1875rem Raleway, sans-serif;
+	color: #18222A;
+	text-transform: uppercase;
+    margin:0;
+    align-self:center;
+    grid-row: 6/9;
+    grid-column: 4/25;
+}
+
+.social_places_item_two_address{
+    font: 1.125rem/1.5rem "Open Sans", sans-serif;
+	color: #636E76;
+    margin:0;
+    grid-row: 9/10;
+    grid-column: 4/25;
+}
+
+.social_places_button{
+    text-align:center;
+}
+
+.social_places_btn_border{
+    display:inline-block;
+	font: 1.125rem "Open Sans", sans-serif;
+	color:#455D77;
+	border:2px solid #455D77;
+	text-decoration: none;
+	padding: 1.125rem 7.25rem;
+}
+
+.social_places_btn_border:hover{
+    border: 2px solid #18222A;
+	color: #18222A;
+}
+
+.social_places_btn_border:active{
+    background-color: #455D77;
+	color: #fff;
+	border:2px solid #455D77;
+}

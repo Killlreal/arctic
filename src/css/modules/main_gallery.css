@@ -1,0 +1,167 @@
+@import url("../components/common.css");
+
+.main_gallery_bg_container{
+	background-color: #E9EAEC;
+	position: absolute;
+	width: 100%;
+	height: 910px;
+	z-index: 1;
+	margin-top: 410px;
+}
+
+.main_gallery_container{
+	margin-left:13.28125%;
+	margin-right:13.28125%;
+	margin-top:120px;
+	position: relative;
+	z-index:2;
+}
+
+.main_gallery{
+	margin-top:60px;
+	display:grid;
+	grid-template-areas:"a a a a a a a a a a a a a a a a a a a a a a a. b b b b b b b b b b b . c c c c c c c c c c c"
+						"d d d d d d d d d d d d d d d d d d d . e e e e e e e e e e e e e e e e e e e e e e e e e e e";
+	grid-row-gap:30px;
+}
+
+.a{
+	grid-area:a;
+}
+
+.b{
+	grid-area:b;
+}
+
+.c{
+	grid-area:c;
+}
+
+.d{
+	grid-area:d;
+}
+
+.e{
+	grid-area:e;
+}
+
+.main_gallery_photo_block img{
+	display: block;
+	max-width:100%;
+	height:auto;
+}
+
+.main_gallery_btn_container{
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+@media(max-width: 1800px){
+    .main_gallery_bg_container{
+        height: 840px;
+    }
+}
+
+@media(max-width: 1700px){
+    .main_gallery_bg_container{
+        height: 790px;
+    }
+}
+
+@media(max-width: 1600px){
+    .main_gallery_bg_container{
+        height: 740px;
+    }
+}
+
+@media(max-width: 1500px){
+    .main_gallery_bg_container{
+        height: 700px;
+    }
+}
+
+@media(max-width: 1440px){
+    .main_gallery_bg_container{
+        height: 670px;
+    }
+}
+
+@media(max-width: 1300px){
+    .main_gallery_bg_container{
+        height: 600px;
+    }
+}
+
+@media(max-width: 1200px){
+    .main_gallery_bg_container{
+        height: 560px;
+    }
+}
+
+@media(max-width: 1100px){
+    .main_gallery_bg_container{
+        height: 510px;
+    }
+}
+
+@media(max-width: 992px){
+    .main_gallery_bg_container{
+        height: 540px;
+        margin-top: 210px;
+    }
+}
+
+@media(max-width: 840px){
+    .main_gallery_bg_container{
+        margin-top: 140px;
+    }
+}
+
+@media(max-width: 768px){
+    .main_gallery_bg_container{
+        height: 470px;
+        margin-top: 180px;
+    }
+}
+
+@media(max-width: 670px){
+    .main_gallery_bg_container{
+        height: 430px;
+        margin-top: 180px;
+    }
+}
+
+@media(max-width: 576px){
+    .main_gallery_bg_container{
+        display: none;
+    }
+
+    .main_gallery_container{
+        margin: 60px 0; 
+    }
+
+    .main_gallery_headline{
+        text-align: center;
+    }
+
+    .main_gallery{
+        margin-top: 30px;
+        display:block
+    }
+
+    .main_gallery_photo_block{
+        height: 440px;
+        margin-top: 30px;
+    }
+
+    .main_gallery_photo_block img{
+        width:100%;
+        height:100%;
+        object-fit:cover;
+    }
+
+    .main_gallery_btn_container{
+        margin-top: 30px;
+    }
+}

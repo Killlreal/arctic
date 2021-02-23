@@ -1,0 +1,139 @@
+@import url("common.css");
+
+.latest_news_container{
+	margin: 120px 13.28125%;
+}
+
+.latest_news_content_container{
+	margin-top: 80px;
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 60px 30px;
+	align-items:center;
+}
+
+.latest_news_article{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	column-gap: 30px;
+	max-width: 690px;
+	max-height: 400px;
+}
+
+.latest_news_img{
+	height: 375px;
+}
+
+.latest_news_img img{
+	width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.btn_latest_news_container{
+	text-align:center;
+	margin-top:60px;
+}
+
+.latest_news_date{
+	font: 0.875rem/1.1875rem "Open Sans", sans-serif;
+	color: #455D77;
+	margin:0;
+	margin-top: 3.5rem;
+}
+
+.latest_news_article_headline{
+	font: 500 1.25rem/1.4375rem Raleway, sans-serif;
+	color: #18222A;
+	margin:0;
+	margin-top:30px;
+}
+
+.latest_news_article_preview{
+	font: 1rem/1.375rem "Open Sans", sans-serif;
+	color: #636E76;
+	margin-top: 30px;
+}
+
+@media(max-width: 1440px){
+	.latest_news_date{
+		margin-top: 30px;
+	}
+}
+
+@media(max-width: 1360px){
+	.latest_news_article_headline,.latest_news_article_preview, .latest_news_date{
+		margin-top:20px;
+	}
+}
+
+@media(max-width: 1200px){
+	.latest_news_article_headline,.latest_news_article_preview, .latest_news_date{
+		margin-top:15px;
+	}
+
+	.latest_news_article_headline{
+		font: 500 1rem/1.25rem Raleway, sans-serif;
+		
+	}
+
+	.latest_news_article_preview{
+		font: 0.875rem/1.25rem "Open Sans", sans-serif;
+	}
+}
+
+@media(max-width: 840px){
+	.latest_news_content_container{
+		grid-template-columns: 1fr;
+		margin-top: 60px;
+	}
+
+	.latest_news_headline{
+		text-align: center;
+	}
+
+	.btn_latest_news_container{
+		margin-top:60px;
+	}
+}
+
+@media(max-width: 576px){
+	.latest_news_container{
+		margin: 60px 0;
+	}
+
+	.latest_news_content_container{
+		margin-top: 30px;
+		gap: 30px 0;
+	}
+
+	.latest_news_article{
+		display: none;
+		max-height: 800px;
+	}
+
+	.latest_news_article:first-child{
+		display:block;
+	}
+
+	.latest_news_text{
+		margin: 30px 15px 0 15px;
+	}
+
+	.latest_news_date{
+		text-align:center;
+		margin:0;
+	}
+
+	.latest_news_article_headline{
+		margin-top: 20px;
+	}
+
+	.latest_news_article_preview{
+		margin-top: 10px;
+	}
+
+	.btn_latest_news_container{
+		margin-top: 30px;
+	}
+}

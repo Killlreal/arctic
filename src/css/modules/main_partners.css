@@ -1,0 +1,41 @@
+@import url("../components/common.css");
+
+.partners_logo_container{
+    margin: 180px 13.28125% 120px 13.28125%;
+}
+
+.partners_logo_gallery{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
+	grid-row-gap:60px;
+	grid-column-gap:30px;
+	margin-top:80px;
+}
+
+.partners_logo_block{}
+
+@media(max-width: 576px){
+    .partners_logo_container{
+        margin: 60px 0;
+    }
+
+    .partners_logo_headline{
+        text-align: center;
+    }
+
+    .partners_logo_gallery{
+        margin-top: 30px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+
+    .partners_logo_block{
+        text-align: center;
+    }
+}
+
+@media(max-width: 470px){
+    .partners_logo_gallery{
+        grid-template-columns: 1fr;
+    }
+}

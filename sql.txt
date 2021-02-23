@@ -1,0 +1,8 @@
+SELECT * FROM page WHERE 
+cid = '2a746b3ec5cbc902a82727662f0823ad'
+AND props->'$."Дата проведения".value' < '2020-11-10'
+OR props->'$."Дата проведения".value' IS NULL
+
+SELECT * FROM page WHERE 
+cid = '2a746b3ec5cbc902a82727662f0823ad'
+AND props->'$."Дата проведения".value' > '2020-11-10'
